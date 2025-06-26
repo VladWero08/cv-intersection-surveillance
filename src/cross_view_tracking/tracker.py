@@ -84,7 +84,7 @@ def write_coordinates(
     Given a list of coordinates of the tracked car from a video,
     writes the coordinates in the file given in the `path`.
     """
-    full_path = f"{path}{video}.txt"
+    full_path = f"{path}{video}_predicted.txt"
 
     with open(full_path, "w") as f:
         f.write(f"{len(coordinates)} -1 -1 -1- 1\n")

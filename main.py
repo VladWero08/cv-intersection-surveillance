@@ -3,7 +3,7 @@ import typing as t
 
 from src.cross_view_tracking.tracker import write_coordinates, track_object_with_yolo_validation
 
-CROSS_VIEW_TRACKING_INPUT_DIR = "./train/task2/"
+CROSS_VIEW_TRACKING_INPUT_DIR = "./test/task2/"
 CROSS_VIEW_TRACKING_OUTPUT_DIR = "./Olaeriu_Vlad_Mihai_407/task2/"
 VIDEOS = ["01_1", "02_1", "03_1", "04_1", "05_1", "06_1", "07_1", "08_1", "09_1", "10_1", "11_1", "12_1", "13_1", "14_1", "15_1"]
 
