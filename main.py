@@ -1,11 +1,6 @@
 import cv2
 import typing as t
 
-from ultralytics import YOLO
-from src.metrics import compute_iou, evaluate_tracking
-from src.kalman_filter import KalmanFilterBox
-from src.utils import get_camera_type_frame, get_fundamental_matrix, get_epipolar_line, draw_epipolar_line_on_frame
-
 from src.cross_view_tracking.tracker import write_coordinates, track_object_with_yolo_validation
 
 CROSS_VIEW_TRACKING_INPUT_DIR = "./train/task2/"
